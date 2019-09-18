@@ -1,0 +1,73 @@
+/** {
+    border: dotted red 2px;
+}
+
+/*----------- header ----------*/
+header {
+    height: 100px;
+    border-bottom: dotted dodgerblue 2px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img.rond {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
+div.koptekst {
+    width: 182px;
+    display: inline-block;
+}
+
+/*- einde header styling -*/
+
+/*--------------- navbar --------*/
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: gray;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*- einde navbar styling -*/
+
+/* -----------  slideshow ----------------*/
+img.mySlides {
+    position: relative;
+}
+
+button {
+    background-color: black;
+    border: 0;
+    opacity: 50%;
+}
+
+button.w3-display-left {
+    position: absolute;
+    left: 7.5px;
+    top: 40%;
+    color: white;
+}
+
+button.w3-display-right {
+    position: absolute;
+    right: 8px;
+    top: 40%;
+    color: white;
+}
+/*- einde slideshow styling -*/
